@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="255.99998"
+   height="256.00281"
+   viewBox="0 0 67.733327 67.734079"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Obsidian.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#222222"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:showpageshadow="false"
+     borderlayer="true"
+     inkscape:zoom="0.5578125"
+     inkscape:cx="58.263305"
+     inkscape:cy="115.63025"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-238.46691,-112.29666)">
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:10.5833px;line-height:1.25;font-family:Nunito;-inkscape-font-specification:'Nunito Semi-Bold';stroke-width:0.264583"
+       x="45.69231"
+       y="104.59255"
+       id="text1574"><tspan
+         sodipodi:role="line"
+         id="tspan1572"
+         style="stroke-width:0.264583"
+         x="45.69231"
+         y="104.59255" /></text>
+    <path
+       id="path4923"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:1.25069;stroke-linecap:round;stroke-linejoin:bevel"
+       d="m 272.33402,112.29666 c -18.70431,0 -33.86711,15.16288 -33.86711,33.86702 0,18.70405 15.1628,33.86706 33.86711,33.86706 18.70403,0 33.86622,-15.16301 33.86622,-33.86706 0,-18.70414 -15.16219,-33.86702 -33.86622,-33.86702 z m 3.87128,14.47346 7.36828,10.46392 -3.86947,23.95612 -2.03704,4.00195 -0.33066,0.65044 -11.39904,-3.80123 -7.50807,-17.46264 5.08005,-10.91606 z m -1.23507,2.59716 -9.85783,5.35299 0.93787,4.74458 8.62575,-6.68194 z m 1.62157,0.89257 -0.21506,2.50383 3.36709,1.97236 z m -1.03705,3.98441 -9.00837,6.97886 10.3892,21.67457 1.13919,-2.23898 3.68012,-22.78297 z m -11.72222,2.74008 -3.5463,7.62059 5.18309,12.05828 -0.82646,-15.58594 z m 2.72311,8.17713 0.82617,15.57543 7.90442,2.63623 z"
+       inkscape:export-filename="C:\Users\xnick\Documents\Theming\Icons\Personal Icons White\PNG\Obsidian.png"
+       inkscape:export-xdpi="108.37341"
+       inkscape:export-ydpi="108.37341" />
+  </g>
+</svg>

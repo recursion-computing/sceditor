@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1080"
+   height="1080"
+   viewBox="0 0 285.75001 285.75001"
+   version="1.1"
+   id="svg3993"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Discord.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs3987" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#bababa"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="4.2857143"
+     inkscape:cy="858.57142"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g1128"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="false"
+     showborder="true"
+     inkscape:showpageshadow="false"
+     borderlayer="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4982"
+       transform="matrix(0.07478503,0,0,0.07478503,-259.95384,62.676022)"
+       style="fill:#000000" />
+    <g
+       id="g1012"
+       transform="matrix(0.79517032,0,0,0.79516857,177.73916,196.97487)">
+      <g
+         id="g1128"
+         transform="translate(-204.276,-110.1636)">
+        <g
+           inkscape:export-ydpi="108.37"
+           inkscape:export-xdpi="108.37"
+           transform="matrix(5.9893002,0,0,5.9893002,12624.494,-3587.4811)"
+           id="g4500"
+           style="fill:#ffffff"
+           inkscape:export-filename="C:\Users\xnick\Documents\Theming\Icons\Personal Icons White\PNG\Discord.png">
+          <path
+             id="path4498"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:180.657;stroke-miterlimit:4;stroke-dasharray:none"
+             d="M 539.99805 0 C 241.76468 0.0023812516 0 241.76976 0 540.00391 C 0 838.23424 241.76468 1079.9976 539.99805 1080 C 838.23142 1080.0005 1079.9952 838.23614 1080 540.00391 C 1080 241.76786 838.23618 -0.00047625032 539.99805 0 z M 462.60938 332.04492 A 312.3648 312.36408 0 0 1 477.11133 361.52539 A 421.60831 421.60738 0 0 1 602.75781 361.52539 A 311.02678 311.0261 0 0 1 617.25977 332.04492 A 453.85047 453.84947 0 0 1 730.47266 366.87695 C 792.58442 457.69066 823.44317 560.11244 812.04883 678.29102 A 454.28207 454.28107 0 0 1 673.11133 747.95312 A 332.34888 332.34814 0 0 1 643.37109 700.04492 A 296.43794 296.43729 0 0 0 690.28906 677.64453 C 686.40282 675.01047 682.56179 672.07482 678.80859 669.01172 A 326.17669 326.17597 0 0 1 401.18945 669.01172 C 397.47614 671.86029 393.63517 674.79595 389.70898 677.64453 A 295.31571 295.31506 0 0 0 436.53906 700.00195 A 335.37026 335.36952 0 0 1 406.80078 747.95312 A 456.35385 456.35285 0 0 1 267.94727 678.24805 C 258.2358 576.34279 277.65995 472.96889 349.30859 366.96289 A 457.04446 457.04345 0 0 1 462.60938 332.04492 z M 448.75391 505.81445 C 420.99975 505.81445 399.41992 530.5912 399.41992 560.80469 C 399.41992 591.01825 421.77578 615.57617 448.83984 615.57617 C 476.41939 615.57617 497.75118 591.01825 498.2168 560.80469 C 498.69068 530.5912 476.50644 505.81445 448.75391 505.81445 z M 631.1582 505.81445 C 603.35912 505.81445 581.7793 530.5912 581.7793 560.80469 C 581.7793 591.01825 604.05089 615.57617 631.1582 615.57617 C 658.73772 615.57617 680.02467 591.01825 680.49023 560.80469 C 680.96749 530.5912 658.95395 505.81445 631.1582 505.81445 z "
+             transform="matrix(0.0555554,0,0,0.05555552,-2111.0549,576.01556)" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
