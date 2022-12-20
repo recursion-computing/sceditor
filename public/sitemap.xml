@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://recursion.is/</loc>
+</url>
+<url>
+  <loc>https://recursion.is/youtube/</loc>
+</url>
+<url>
+  <loc>https://notes.recursion.is/</loc>
+</url>
+<url>
+  <loc>https://publications.recursion.is/</loc>
+</url>
+<url>
+  <loc>https://github.com/recursion-computing</loc>
+</url>
+<url>
+  <loc>https://www.linkedin.com/company/recursion-computing</loc>
+</url>
+<url>
+  <loc>https://discord.gg/2kSSsvTVc3/</loc>
+</url>
+<url>
+  <loc>https://twitter.com/RecursionIs</loc>
+</url>
+<url>
+  <loc>mailto:info@recursion.is</loc>
+</url>
+<url>
+  <loc>https://nickmaleki.com/</loc>
+</url>
+</urlset>

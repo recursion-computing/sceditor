@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/Recursion.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Recursion</title>
+  <meta property="og:title" content="Recursion" />
+  <meta property="og:description" content="Unbounded Thinking" />
+  <meta property="og:url" content="https://recursion.is" />
+  <meta property="og:image" content="%PUBLIC_URL%/Recursion.png" />
+
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/Recursion.png" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "WebSite",
+      "name": "Recursion",
+      "url": "https://recursion.is",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://notes.recursion.is/{search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+      { "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Recursion",
+      "legalName" : "Recursion Computing, LLC",
+      "url": "https://recursion.is",
+      "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQGgOrVI-mR3Lw/company-logo_200_200/0/1579717405644?e=1665619200&v=beta&t=8wjsHmVGps2gxOLWJHQsxiviLaZyghnqNYKcTUJIWjQ",
+      "foundingDate": "2020-01-10",
+      "founders": [
+      {
+      "@type": "Person",
+      "name": "Nicholas Maleki"
+      },
+      {
+      "@type": "Person",
+      "name": "Kaci Spears"
+      } ],
+      "sameAs": [ 
+      "https://recursion.is",
+      "https://notes.recursion.is/info"
+      ]}
+     </script>
+</head>
+
+<body>
+  <noscript>Recursion: Please Enable JavaScript
+    <br>
+  </noscript>
+  <!-- <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xyyoqooz"
+    method="post">
+    <fieldset id="fs-frm-inputs">
+      <span id='close' onclick='this.parentNode.parentNode.removeChild(this.parentNode); return false;'>x</span>&ensp;
+      Would you like to join our mailing list?&emsp;
+      <li>
+        <label for="full-name">Name</label>
+        <input type="text" name="name" id="full-name" placeholder="First and Last" required="">&emsp;
+      </li>
+      <li>
+        <label for="email-address">Email</label>
+
+        <input type="email" name="_replyto" id="email-address" placeholder="info@recursion.is" required="">&emsp;
+      </li>
+      <li>
+        <label for="message">Message</label>
+        <textarea rows="1" name="message" id="message" placeholder="optional"></textarea>
+      </li>&emsp;
+      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form> -->
+  <div id="root"></div>
+  <style>
+    /* reset */
+    /* #fs-frm input,
+    #fs-frm select,
+    #fs-frm textarea,
+    #fs-frm fieldset,
+    #fs-frm optgroup,
+    #fs-frm label,
+    #fs-frm #card-element:disabled,
+    #close {
+      font-family: inherit;
+      font-size: 100%;
+      color: black;
+      border: none;
+      border-radius: 0;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-color: lightgray;
+    }
+
+    #close {
+      cursor: pointer;
+      -webkit-appearance: button;
+      -moz-appearance: button;
+      appearance: button;
+      padding: .1em;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+    }
+
+
+    #fs-frm,
+    #fs-frm-inputs {
+      width: 100%;
+      background-color: gray;
+      display: inline-block;
+      animation: fadeIn ease 3s;
+    }
+
+    #fs-frm textarea {
+      margin-bottom: -.55rem;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    div.horizontalgap {
+      overflow: hidden;
+      height: 1px;
+      width: 0px;
+    }
+
+    #fs-frm label,
+    #fs-frm legend,
+    #fs-frm ::placeholder {
+      font-size: .825rem;
+    }
+
+    /* border, padding, margin, width */
+    /* #fs-frm input,
+    #fs-frm select,
+    #fs-frm textarea,
+    #fs-frm #card-element {
+      border: 2px solid black;
+      background-color: gray;
+    }
+
+    #fs-frm input:focus,
+    #fs-frm select:focus,
+    #fs-frm textarea:focus {
+      background-color: gray;
+      outline-style: solid;
+      outline-width: thin;
+      outline-color: white;
+      outline-offset: -1px;
+    }
+
+    #fs-frm [type="button"],
+    #fs-frm [type="submit"],
+    #fs-frm [type="reset"],
+    #fs-frm [type="close"] {
+      cursor: pointer;
+      -webkit-appearance: button;
+      -moz-appearance: button;
+      appearance: button;
+    }
+
+    #fs-frm [type="button"]:focus,
+    #fs-frm [type="submit"]:focus,
+    #fs-frm [type="reset"]:focus,
+    #fs-frm [type="close"] {
+      outline: none;
+    }
+
+    #fs-frm [type="submit"],
+    #fs-frm [type="reset"],
+    #fs-frm [type="close"] {
+      margin-bottom: 0;
+    }
+
+    #fs-frm select {
+      text-transform: none;
+    } */
+  </style>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+</body>
+
+</html>
