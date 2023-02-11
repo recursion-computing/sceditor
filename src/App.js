@@ -274,10 +274,10 @@ function App() {
   //window.resizeTo(512,512)
 
   //this.setState({'codemirrorRef': codemirrorRef})
-
+  var tab = RegExp("\\t", "g");
 
   const onChange = React.useCallback((value, viewUpdate) => {
-    //console.log('value:', value);
+    console.log('value:', value.replace(/(\r\n|\r|\n)/g, '\\n').replace(tab,'\\t'));
     document.title = value + unrealcommandflags;
     //window.codemirrorRef = codemirrorRef;
     //window.location.href = 'http://localhost:3000/' + value;
@@ -434,6 +434,7 @@ function App() {
       <div className="centerdock">
         <div className="centercontainer">
           <ul>
+            <li><button className='button' id='delete'><underkey>D</underkey>elete</button></li>
             <li><button className='button'><b><underkey>B</underkey>old</b></button></li>
             <li><button className='button'><i><underkey>I</underkey>talic</i>  </button></li>
 
@@ -471,6 +472,7 @@ function App() {
             <li>
               <div className='go'>
                 <button className='button' id="go"><underkey>G</underkey>O<tooltip> ▶</tooltip></button>
+                
                 <div className='timings'>
                   <div id='timinggo'>100<units>ms</units></div>
                   <div id='timingvariables'>10<units>ms</units></div>
